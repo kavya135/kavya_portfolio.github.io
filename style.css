@@ -58,6 +58,7 @@ section .title{
 }
 section .title::before{
     content: "";
+    color: crimson;
     position: absolute;
     bottom: 0px;
     left: 50%;
@@ -154,6 +155,7 @@ section .title::after{
 }
 .scroll-up-btn.show{
     bottom: 30px;
+    color: crimson;
     opacity: 1;
     pointer-events: auto;
 }
